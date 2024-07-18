@@ -10,6 +10,7 @@ b = st.number_input("英語")
 
 n = ["国語","数学","理科","社会","英語"]
 height = [x,y,z,v,b]
-plt.bar(n, height, width=0.5)  
-plt.show()
+fig, ax = plt.subplots()
+ax.bar(n, height, width=0.5)
+st.pyplot(fig)
 
