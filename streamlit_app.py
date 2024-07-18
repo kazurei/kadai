@@ -1,5 +1,6 @@
 import streamlit as st
 import matplotlib.pyplot as plt
+import plotly as tly
 import numpy as np
 st.title("成績")
 x = st.number_input("国語")
