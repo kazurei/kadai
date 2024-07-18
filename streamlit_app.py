@@ -10,3 +10,13 @@ n = ["国語","数学","理科","社会","英語"]
 height = [x,y,z,v,b]
 plt.bar(n, height, width=0.5)  
 plt.show()
+
+
+
+
+
+
+x = ['A', 'B', 'C', 'D', 'E']
+height = [3, 7, 2, 4, 6]
+plt.bar(x, height, width=0.5)  # 幅0.5の縦棒グラフを作成
+plt.show()
