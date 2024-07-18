@@ -25,5 +25,4 @@ plt.xticks(angle_list[:-1], label_list, color='grey', size=12)
 ax.plot(angle_list, acc_list, linewidth=1, linestyle='solid', label='Model A')
 ax.fill(angle_list, acc_list, 'blue', alpha=0.1)
 
-plt.legend(loc='upper right')
-plt.show()
+st.pyplot(fig)
