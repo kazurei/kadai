@@ -8,13 +8,13 @@ y = st.number_input("数学")
 z = st.number_input("理科")
 v = st.number_input("社会")
 b = st.number_input("英語")
-
+#matplotlibの棒グラフ
 n = ["japanese","math","science","social study","english"]
 height = [x,y,z,v,b]
 fig, ax = plt.subplots()
 ax.bar(n, height, width=0.5)
 st.pyplot(fig)
-
+#matplotlibのレーダーチャート
 label_list = ["japanese","math","science","social study","english"]
 acc_list = [x,y,z,v,b]
 acc_list += acc_list[:1]
